@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+background: #02020a;
+    font-family: 'Abel', sans-serif;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: #E1E2EF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    margin : 10px
+   
+}
+.navbar a:hover {
+    color: #05204A;
+}
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.navbar-center a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #B497D6
+}
+
+.navbar-center a:hover {
+    cursor: default;
+}
+.navbar-right {
+    float: right;
+}
+  
+.presentation {
+    margin-top: 200px;
+}
+P{
+    color: white;
+}
+
+
