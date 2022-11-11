@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+background: #02020a;
+    font-family: 'Abel', sans-serif;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.navbar{
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: #E1E2EF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    margin : 10px
+   
+}
+.navbar a:hover {
+    color: #05204A;
+}
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.navbar-center a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #B497D6
+}
+
+.navbar-center a:hover {
+    cursor: default;
+}
+.navbar-right {
+    float: right;
+}
+  
+.presentation {
+    margin-top: 200px;
+}
+P{
+    color: white;
+}
+
+.container-social-icon {
+    background-color: white;
+    opacity: 0.5;
+    z-index: 1;
+    width: 15vh;
+    height: 7vh;
+    position: fixed;
+    margin-top: 90vh;
+    margin-left: 4vh; 
+    border-radius: 10px;
+    
+    
+}
+.container-social-icon .social-media-icon {
+    text-align: center;
+    margin-top: 15%;
+    
+}
+
+.container-social-icon .social-media-icon i {
+    padding: 0.5vh;
+    opacity: 2;
+    cursor:pointer;
+    color: black;
+    transition: .5s;
+}
+.container-social-icon .social-media-icon i:hover {
+    padding: 0.5vh;
+    opacity: 2;
+    cursor:pointer;
+    color:gray;
+    transition: .5s;
+}
+
