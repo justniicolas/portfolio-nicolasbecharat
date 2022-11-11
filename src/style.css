@@ -18,55 +18,52 @@ background: #02020a;
     outline: none;
 }
 
-.navbar{
-    z-index: 2;
-    width: 100%;
-    position: fixed;
+.nav .wrapper {
     background-color: transparent;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 
-.navbar a {
-    float: left;
-    color: #E1E2EF;
+.nav .wrapper a {
+    float: left; 
+    color : black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-    margin : 10px
-   
-}
-.navbar a:hover {
-    color: #05204A;
-}
-.navbar a.active {
-    background-color: #04AA6D;
-    color: white;
+    margin : 10px; 
+    
 }
 
-.navbar-center a {
+
+.nav .wrapper a:hover {
+    color: black;
+    transition: .5s;
+}
+
+.nav .wrapper .navbar-center a{
     float: none;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    color: #B497D6
+    transform: translate(-50%,-50%);
+    color : #b497d6
+
+    
+}
+.nav .wrapper .navbar-left {
+    float: left;
+
+}
+.nav .wrapper .navbar-left {
+    float: right;
+
 }
 
-.navbar-center a:hover {
-    cursor: default;
-}
-.navbar-right {
-    float: right;
-}
-  
-.presentation {
-    margin-top: 200px;
-}
-P{
-    color: white;
-}
+
+   
 
 .container-social-icon {
     background-color: white;
