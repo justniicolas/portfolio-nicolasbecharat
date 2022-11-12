@@ -7,7 +7,7 @@
 html
 {
 background: #02020a;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Futura', sans-serif;
 }
 
 .webgl
@@ -27,7 +27,7 @@ background: #02020a;
 
 .nav .wrapper a {
     float: left; 
-    color : black;
+    color : white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -66,11 +66,10 @@ background: #02020a;
    
 
 .container-social-icon {
-    background-color: white;
+    background-color: transparent;
     opacity: 0.5;
-    z-index: 1;
-    width: 15vh;
-    height: 7vh;
+    width: 30vh;
+    height: auto;
     position: fixed;
     margin-top: 90vh;
     margin-left: 4vh; 
@@ -80,7 +79,7 @@ background: #02020a;
 }
 .container-social-icon .social-media-icon {
     text-align: center;
-    margin-top: 15%;
+    align-items: center;
     
 }
 
@@ -88,8 +87,9 @@ background: #02020a;
     padding: 0.5vh;
     opacity: 2;
     cursor:pointer;
-    color: black;
+    color: white;
     transition: .5s;
+    padding: 10px;
 }
 .container-social-icon .social-media-icon i:hover {
     padding: 0.5vh;
@@ -97,5 +97,62 @@ background: #02020a;
     cursor:pointer;
     color:gray;
     transition: .5s;
+}
+
+
+.home-page-section{
+   
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.home-page-section .text-presentation{
+    width: 100%;
+    
+}
+
+.home-page-section .text-presentation p {
+    font-size: xx-large;
+
+}
+
+.home-page-section .text-presentation p:active {
+    color: blue;
+
+}
+.home-page-section .text-presentation .multiText {
+    color: #b497d6;
+   
+}
+.home-page-section .text-presentation .text-presentation-wout-anim {
+    color: white;
+    
+}
+
+.work-page-section{
+   /* background-color: blue; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}  
+
+
+.work-page-section .container-work {
+   overflow: hidden;
+    width: 65%;
+    height: 65vh;
+    background-color: white;
+    opacity: .9;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
 }
 
