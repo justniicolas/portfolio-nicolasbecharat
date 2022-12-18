@@ -74,7 +74,7 @@ font-family: 'Merriweather Sans', sans-serif;
     height: auto;
     position: fixed;
     margin-top: 90vh;
-    margin-left: 4vh; 
+     
     border-radius: 10px;
     
     
@@ -239,6 +239,8 @@ font-family: 'Merriweather Sans', sans-serif;
     .work-page-section .container-work .image-work img {
         border-radius: 10px;
     }
-
+    .container-social-icon {
+        margin-left: 25%;
+    }
 
 }
