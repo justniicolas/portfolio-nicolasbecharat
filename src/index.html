@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>particules website</title>
     <script src="https://kit.fontawesome.com/d67384fb0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <canvas class="webgl"></canvas>
@@ -34,7 +35,7 @@
     </div>
 
     <section class= "home-page-section">
-        <div class = "text-presentation">
+        <div class = "text-presentation"data-aos="fade-down" data-aos-duration="1500">
             <p class = "text-presentation-wout-anim"> I'm <span class="multiText"></span></p>
         </div>
 
@@ -42,24 +43,30 @@
     </section>
 
     <section class= "work-page-section">
-        <div class = "container-work">
-            
-        </div>
-
+        <div class ="container-work"data-aos="fade-up">
+            <div class="image-work">
+                <img src="./render1.png" width="600px" height=auto>
+            </div>
+            <div class="description-work"></div>
         
+        </div
     </section>
     
 
     
         
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
             <script>
                 var typed = new Typed(".multiText", {
                     strings: [ "French", "a Developper", "a Student", "Nicolas Becharat"],
-                    typeSpeed : 150,
-                    backSpeed : 150,
+                    typeSpeed : 250,
+                    backSpeed : 100,
                     loop : false
                 })
+            </script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init();
             </script>
    
 </body>

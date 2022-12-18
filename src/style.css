@@ -137,22 +137,33 @@ font-family: 'Merriweather Sans', sans-serif;
 }
 
 .work-page-section{
-   /* background-color: blue; */
     height: 100vh;
     width: 100%;
-    display : flex; 
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
 }  
 
 
-.work-page-section .container-work {
-   overflow: hidden;
+.work-page-section .container-work  {
+    z-index: -1;
+    overflow: hidden;
     width: 65%;
     height: 65vh;
     background-color: white;
-    opacity: .9;
+    /* opacity: .9; */
     border-radius: 10px;
     
 }
+.work-page-section .container-work .image-work{
+    position: absolute;
+    width: 50%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
 
