@@ -146,7 +146,6 @@ font-family: 'Merriweather Sans', sans-serif;
 
 
 .work-page-section .container-work  {
-    z-index: -1;
     overflow: hidden;
     width: 65%;
     height: 65vh;
@@ -156,14 +155,30 @@ font-family: 'Merriweather Sans', sans-serif;
     
 }
 .work-page-section .container-work .image-work{
+    z-index: 1000;
     position: absolute;
     width: 50%;
     height: 65vh;
     display: flex;
-    justify-content: center;
-
+    justify-content: left;
 
 }
+.work-page-section .container-work .image-work img {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.work-page-section .container-work .description-work{
+    position: absolute;
+    width: 60%;
+    height: 65vh;
+    display: flex;
+    justify-content: right;
+    margin-top: 5px;
+}
+.work-page-section .container-work .description-work h2{
+    color: #02020a;
+}
+
 
 
 
