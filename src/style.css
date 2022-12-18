@@ -170,13 +170,44 @@ font-family: 'Merriweather Sans', sans-serif;
 .work-page-section .container-work .description-work{
     position: absolute;
     width: 60%;
-    height: 65vh;
+    height: auto;
     display: flex;
     justify-content: right;
     margin-top: 5px;
 }
 .work-page-section .container-work .description-work h2{
     color: #02020a;
+}
+
+.work-page-section .container-work .description-work .skills-project .skills-code-project1{
+    position: absolute;
+    left: 80.7%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+    padding: .1rem 1rem;
+    border-radius: 10px;
+    background: #878787;
+    
+}
+.work-page-section .container-work .description-work .skills-project .skills-code-project2{
+    position: absolute;
+    left: 93.7%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+    padding: .1rem 1rem;
+    border-radius: 10px;
+    background: #878787;
+    
+}
+.work-page-section .container-work .description-work .skills-project .skills-code-project p{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    
 }
 
 
