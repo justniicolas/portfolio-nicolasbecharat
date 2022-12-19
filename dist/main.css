@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap);
 *
 {
     margin: 0;
@@ -152,7 +152,7 @@ font-family: 'Merriweather Sans', sans-serif;
 
 
     .container-work  {
-        margin-left: 16%;
+        margin-left: 17%;
         overflow: hidden;
         width: 65%;
         height: 65vh;
@@ -162,7 +162,7 @@ font-family: 'Merriweather Sans', sans-serif;
         
     }
     .container-work2  {
-        margin-left: 16%;
+        margin-left: 17%;
         margin-top: 50vh;
         overflow: hidden;
         width: 65%;
@@ -184,13 +184,8 @@ font-family: 'Merriweather Sans', sans-serif;
     .image-work img {
         border-radius: 10px 0px 0px 10px;
         width: 90%; 
-        object-fit : cover;
-        transition: 1s;
+        object-fit : cover
         
-    }
-    .image-work img:hover{
-        opacity: .95;
-        transition: 1s;
     }
 
     .description-work{
@@ -252,22 +247,7 @@ font-family: 'Merriweather Sans', sans-serif;
         display: flex;
         align-items: center;
         
-    }
-    .projet-description{
-        display: flex;
-        align-items: center;
-        position: absolute;
-        width: 90%;
-        height: auto;
-        margin-top: 25%;
-        left: -1%;
-        
-    }
-    .projet-description p{
-        color: #878787;
-    }
-
-    
+}
 
 
 /* Responsive */
@@ -327,3 +307,5 @@ font-family: 'Merriweather Sans', sans-serif;
     }
 
 } 
+
+/*# sourceMappingURL=main.css.map*/
