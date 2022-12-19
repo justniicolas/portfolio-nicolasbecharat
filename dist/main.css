@@ -37,18 +37,20 @@ font-family: 'Merriweather Sans', sans-serif;
     display: block;
     margin : 10px; 
     z-index: 100000000000000;
+    transition: .5s;
+    font-family: 'Merriweather Sans', Bold;
     
 }
 
 
 .nav .wrapper a:hover {
-    color: black;
+    color: gray;
     transition: .5s;
 }
 
 .nav .wrapper .navbar-center a{
     float: none;
-    font-family: 'Merriweather Sans', Bold;
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -76,7 +78,6 @@ font-family: 'Merriweather Sans', sans-serif;
     height: auto;
     position: fixed;
     margin-top: 90vh;
-     
     border-radius: 10px;
     
     
@@ -96,7 +97,7 @@ font-family: 'Merriweather Sans', sans-serif;
     padding: 10px;
 }
 .container-social-icon .social-media-icon i:hover {
-    padding: 0.5vh;
+    
     opacity: 2;
     cursor:pointer;
     color:gray;
@@ -126,7 +127,7 @@ font-family: 'Merriweather Sans', sans-serif;
 }
 
 .home-page-section .text-presentation p:active {
-    color: blue;
+    color: gray;
 
 }
 .home-page-section .text-presentation .multiText {
@@ -138,6 +139,9 @@ font-family: 'Merriweather Sans', sans-serif;
     
 }
 
+.work {
+    top : 125vh
+}
 .work-page-section{
     height: 200vh;
     width: 100%;
