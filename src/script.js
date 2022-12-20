@@ -45,17 +45,22 @@ const mesh3 = new THREE.Mesh(
     new THREE.TorusKnotGeometry(0.8, 0.35, 100, 16),
     material
 )
-
+const mesh4 = new THREE.Mesh(
+    new THREE.TorusGeometry(0.8, 0.35, 100, 16),
+    material
+)
 mesh1.position.x = 2
 mesh2.position.x = - 2
 mesh3.position.x = 2
+mesh4.position.x = -2
 
 mesh1.position.y = - objectsDistance * 0
 mesh2.position.y = - objectsDistance * 1
 mesh3.position.y = - objectsDistance * 2
+mesh4.position.y = - objectsDistance * 3
 
 
-const sectionMeshes = [ mesh1, mesh2, mesh3 ]
+const sectionMeshes = [ mesh1, mesh2, mesh3, mesh4 ]
 
 /**
  * Lights
