@@ -144,7 +144,7 @@ font-family: 'Merriweather Sans', sans-serif;
     top : 125vh
 }
 .work-page-section{
-    height: 200vh;
+    height: 312.5vh;
     width: 100%;
     display: inline-block;
     vertical-align: middle;
@@ -170,6 +170,24 @@ font-family: 'Merriweather Sans', sans-serif;
         position: absolute;
         width: 50%;
         height: 65vh;
+        
+
+    }
+    .video-work{
+        
+        z-index: 1000;
+        position: absolute;
+        width: 50%;
+        height: 65vh;
+        
+
+    }
+    .video-work video{
+        
+        
+        width: 90%;
+        height: 65vh;
+        object-fit : cover 
         
 
     }
@@ -207,8 +225,6 @@ font-family: 'Merriweather Sans', sans-serif;
         padding: 10px;
     }
     .skills-code-project{
-        display: flex;
-        justify-content: center;
         position: absolute;
         height: auto;
         margin-top: 2%;
@@ -250,10 +266,12 @@ font-family: 'Merriweather Sans', sans-serif;
     .projet-description{
         display: flex;
         align-items: center;
+        margin-left: 5%;
         position: absolute;
         width: 80%;
-        height: auto;
-        margin-top: 25%;
+        height: 90%;
+
+        
         
         
     }
@@ -318,6 +336,9 @@ font-family: 'Merriweather Sans', sans-serif;
     .description-work{
         display: none;
     }
+    .video-work{
+        width: 72.5%;
+    }
     .image-work{
         width: 72.5%;
     }
@@ -326,7 +347,6 @@ font-family: 'Merriweather Sans', sans-serif;
         border-radius: 10px;
     }
     
-
     .projet-description{
         display: none;
         
