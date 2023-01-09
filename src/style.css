@@ -8,7 +8,6 @@
 html {
   background: #02020a;
   font-family: "Bebas Neue", cursive;
-
 }
 
 .webgl {
@@ -156,7 +155,6 @@ html {
   border-radius: 10px 0px 0px 10px;
 }
 .image-work img {
-  
   object-fit: cover;
   transition: 1s;
 }
@@ -167,7 +165,7 @@ html {
 }
 
 .description-work {
-    overflow: hidden;
+  overflow: hidden;
   position: absolute;
   width: 20%;
   height: 65vh;
@@ -293,7 +291,7 @@ html {
   .projet-description {
     display: none;
   }
-  
+
   .description-work {
     z-index: 11;
     position: absolute;
@@ -307,36 +305,29 @@ html {
     display: none;
   }
   .skills-code-project p {
-    font-size:xx-small;
+    font-size: xx-small;
   }
-  
+
   .skills-code-project1 p {
     font-size: xx-small;
   }
-  
+
   .skills-code-project2 {
     margin-left: 20%;
   }
   .skills-code-project2 p {
     font-size: xx-small;
-
   }
 }
 @media screen and (max-width: 650px) {
-
-    .skills-code-project2 {
-        margin-left: 30%;
-    }
-
-
+  .skills-code-project2 {
+    margin-left: 30%;
+  }
 }
 @media screen and (max-width: 400px) {
-
-    .skills-code-project2 {
-        margin-left: 40%;
-    }
-
-
+  .skills-code-project2 {
+    margin-left: 40%;
+  }
 }
 /* width */
 ::-webkit-scrollbar {
