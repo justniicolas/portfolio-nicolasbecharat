@@ -189,7 +189,7 @@ html {
 }
 .skills-code-project {
   position: absolute;
-  height: 50vh;
+  height: auto;
   margin-top: 2%;
   padding: 0.1rem 1rem;
   border-radius: 10px;
@@ -277,6 +277,9 @@ html {
 @media screen and (max-width: 900px) {
   .video-work {
     width: 72.5%;
+  }
+  .video-work video {
+    border-radius: 10px;
   }
   .image-work {
     width: 72.5%;

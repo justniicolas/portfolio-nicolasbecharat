@@ -8,6 +8,7 @@
 html {
   background: #02020a;
   font-family: "Bebas Neue", cursive;
+
 }
 
 .webgl {
@@ -22,7 +23,7 @@ html {
   overflow: hidden;
   position: fixed;
   width: 100%;
-  z-index: 100000000000000;
+  z-index: 10;
 }
 
 .nav .wrapper a {
@@ -31,10 +32,10 @@ html {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   display: block;
   margin: 10px;
-  z-index: 100000000000000;
+  z-index: 10;
   transition: 0.5s;
 }
 
@@ -137,13 +138,13 @@ html {
 }
 
 .image-work {
-  z-index: 1000;
+  z-index: 9;
   position: absolute;
   width: 50%;
   height: 65vh;
 }
 .video-work {
-  z-index: 1000;
+  z-index: 9;
   position: absolute;
   width: 50%;
   height: 65vh;
@@ -165,6 +166,7 @@ html {
 }
 
 .description-work {
+    overflow: hidden;
   position: absolute;
   width: 20%;
   height: 65vh;
@@ -187,7 +189,7 @@ html {
 }
 .skills-code-project {
   position: absolute;
-  height: auto;
+  height: 50vh;
   margin-top: 2%;
   padding: 0.1rem 1rem;
   border-radius: 10px;
@@ -233,6 +235,7 @@ html {
   position: absolute;
   width: 85%;
   height: 75%;
+  font-size: small;
   font-weight: 400;
 }
 .projet-description p {
@@ -286,22 +289,51 @@ html {
   .projet-description {
     display: none;
   }
+  
   .description-work {
-    display: none;
-  }
-  .description-work {
+    z-index: 11;
     position: absolute;
-    width: 20%;
-    height: 5vh;
-    left: 25%;
-    margin-top: 5px;
+    width: 50%;
+    height: 10vh;
+    left: 19%;
+    margin-top: 57vh;
     font-weight: bold;
   }
   .description-work h2 {
     display: none;
   }
-}
+  .skills-code-project p {
+    font-size:xx-small;
+  }
+  
+  .skills-code-project1 p {
+    font-size: xx-small;
+  }
+  
+  .skills-code-project2 {
+    margin-left: 20%;
+  }
+  .skills-code-project2 p {
+    font-size: xx-small;
 
+  }
+}
+@media screen and (max-width: 650px) {
+
+    .skills-code-project2 {
+        margin-left: 30%;
+    }
+
+
+}
+@media screen and (max-width: 400px) {
+
+    .skills-code-project2 {
+        margin-left: 40%;
+    }
+
+
+}
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
