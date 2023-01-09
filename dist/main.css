@@ -153,9 +153,10 @@ html {
   width: 90%;
   height: 65vh;
   object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
 }
 .image-work img {
-  border-radius: 10px 0px 0px 10px;
+  
   object-fit: cover;
   transition: 1s;
 }
