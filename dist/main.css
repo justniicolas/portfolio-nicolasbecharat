@@ -118,7 +118,7 @@ html {
   top: 125vh;
 }
 .work-page-section {
-  height: 312.5vh;
+  height: 325vh;
   width: 100%;
   display: inline-block;
   vertical-align: middle;
@@ -126,6 +126,7 @@ html {
 }
 
 .container-work {
+  margin-top: 12.5vh;
   margin-left: 18.5%;
   overflow: hidden;
   width: 65%;
@@ -147,12 +148,12 @@ html {
   position: absolute;
   width: 50%;
   height: 65vh;
+  overflow: hidden;
 }
 .video-work video {
   width: 90%;
-  height: 65vh;
+  height: 70vh;
   object-fit: cover;
-  border-radius: 10px 0px 0px 10px;
 }
 .image-work img {
   object-fit: cover;
@@ -270,6 +271,10 @@ html {
 @media screen and (max-width: 1200px) {
   .skills-project p {
     font-size: 12.5px;
+  }
+  .projet-description {
+    font-size: small;
+    
   }
 }
 

@@ -8,6 +8,7 @@
 html {
   background: #02020a;
   font-family: "Bebas Neue", cursive;
+  scroll-behavior: smooth;
 }
 
 .webgl {
